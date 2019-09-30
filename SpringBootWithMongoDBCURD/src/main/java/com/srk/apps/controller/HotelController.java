@@ -41,6 +41,8 @@ public class HotelController {
 	public Hotel insert(@RequestBody Hotel hotel) {
 		Hotel insertedHotel = hotelRepository.insert(hotel);
 		return insertedHotel;
+		
+		
 	}
 	
 	@PostMapping
