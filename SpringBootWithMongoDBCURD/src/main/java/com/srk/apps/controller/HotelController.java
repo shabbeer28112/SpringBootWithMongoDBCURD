@@ -35,6 +35,8 @@ public class HotelController {
 	public List<Hotel> findAll() {
 		List<Hotel> hotels = hotelRepository.findAll();
 		return hotels;
+		
+		
 	}
 
 	@PutMapping
